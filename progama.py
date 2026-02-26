@@ -1,2 +1,6 @@
-nome = input("Digite seu nome: ")
-print(f"Olá, {nome}! Bem-vindo ao mundo da programação!")
+s1 = 'ant'
+s2 = 'bat'
+s3 = 'cod'
+
+res = 5 * (2* s2 + s3 + ' ')
+print(res)

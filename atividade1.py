@@ -1,8 +1,5 @@
-print ("Seguir até a floresta")
-caminho = input("Qual caminho seguir? (esquerda/direita) ")
-if (caminho == "esquerda"):
-    print("Enfrentar um lobo selvagem!")
-
-print (" Seguir até as toras de madeira")
-print (" Cortar uma lenha")
-print (" Seguir até o acampamento")
+x = int(input("Digite um número inteiro: "))
+if x % 2 == 0:
+    print(f"O número {x} é par.")
+else:
+    print(f"O número {x} é ímpar.")
